@@ -112,11 +112,8 @@ body {
 }
 
 .notes-hero {
-    min-height: 100dvh;
     padding: 140px 0 60px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    text-align: center;
 }
 
 .menu-toggle {
@@ -130,10 +127,6 @@ body {
 }
 
 @media (max-width: 768px) {
-
-    .notes-hero {
-            padding: 120px 20px 40px;
-    }
 
     .menu-toggle {
         display: block;
