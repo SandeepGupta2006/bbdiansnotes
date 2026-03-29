@@ -52,7 +52,7 @@ if (subjectData) {
             const btn = document.createElement("div");
             btn.className = "module-link";
             btn.innerHTML = `<span style="color:#ef4444; margin-right:8px;">•</span> ${pyq.year} (${pyq.term})`;
-            btn.onclick = () => loadPDF(`../assets/pdf/pyqs-pdf/${subjectData.subject}/${pyq.file}`, `${pyq.year} ${pyq.term} PYQ`, btn);
+            btn.onclick = () => loadPDF(`assets/pdf/pyqs-pdf/${subjectData.subject}/${pyq.file}`, `${pyq.year} ${pyq.term} PYQ`, btn);
             pyqList.appendChild(btn);
         });
     }
@@ -65,7 +65,7 @@ function createLink(displayName, fileName, folder, autoClick) {
     link.innerHTML = `📖 ${displayName}`;
 
     // Construct the URL
-    const finalUrl = fileName ? `../assets/pdf/${folder}/${subjectData.subject}/${fileName}` : "";
+    const finalUrl = fileName ? `assets/pdf/${folder}/${subjectData.subject}/${fileName}` : "";
 
     link.onclick = () => loadPDF(finalUrl, displayName, link);
     moduleList.appendChild(link);
