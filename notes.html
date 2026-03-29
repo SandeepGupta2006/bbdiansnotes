@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes - BBDians Notes</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/notes.css">
+
+    <meta name="description" content="BBDians Notes - Notes and PYQs for BBD University students">
+    <meta name="keywords" content="BBD notes, BBD university notes, engineering notes, btech notes, bbd pyqs, bbd university pyqs, babu banarsi das university notes, babu banarsi das university pyqs, bbdu btech notes, bbdu btech pyqs, cse notes">
+
+    <link rel="shortcut icon" href="assets/icon.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <header class="site-header">
+        <div class="logo"><a href="index.html">BBDians Notes</a></div>
+        <nav class="menu" id="menu">
+            <a href="index.html">Home</a>
+            <a href="notes.html" class="active">Notes</a>
+            <a href="about.html">About</a>
+            <a href="feedback.html">Feedback</a>
+            <a href="contribute.html">Contribute</a>
+        </nav>
+
+        <!-- <button id="themeToggle" class="theme-toggle">🌙</button> -->
+        <button id="menuToggle" class="menu-toggle">☰</button>
+    </header>
+
+    <section class="notes-hero">
+        <div class="container">
+            <h1>Notes Library</h1>
+            <p>Search, filter and download notes & pyqs easily</p>
+        </div>
+    </section>
+
+    <section class="filters">
+        <div class="container filters-row">
+
+            <input type="text" id="searchInput" placeholder="Search subject...">
+
+            <select id="branchFilter">
+                <option value="">All Branches</option>
+                <option value="B.Tech CSE">B.Tech CSE</option>
+                <option value="B.Tech CSE-AI">B.Tech CSE-AI</option>
+                <option value="B.Tech CSE-AIBC">B.Tech CSE-AIBC</option>
+                <option value="B.Tech CSE-CCML">B.Tech CSE-CCML</option>
+            </select>
+
+            <select id="semFilter">
+                <option value="">All Semesters</option>
+                <option value="1st">1</option>
+                <option value="2nd">2</option>
+                <option value="3rd">3</option>
+                <option value="4th">4</option>
+                <option value="5th">5</option>
+                <option value="6th">6</option>
+                <option value="7th">7</option>
+                <option value="8th">8</option>
+            </select>
+
+            <select id="typeFilter">
+                <option value="">All</option>
+                <option value="Notes">Notes</option>
+                <option value="PYQ">PYQ</option>
+            </select>
+
+        </div>
+    </section>
+
+    <section class="notes-grid-section">
+        <div class="container notes-grid" id="notesContainer"></div>
+    </section>
+
+    <div class="menu-overlay" id="menuOverlay"></div>
+
+    <script src="js/notesData.js"></script>
+    <script src="js/notes.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

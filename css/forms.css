@@ -1,0 +1,105 @@
+.feedback-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 25px;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid var(--glass-border);
+    backdrop-filter: blur(15px);
+}
+
+.feedback-form input,
+.feedback-form textarea {
+    padding: 14px 14px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    background: rgba(255, 255, 255, 0.03);
+    color: white;
+    font-size: 14px;
+    transition: 0.25s ease;
+}
+
+.feedback-form input::placeholder,
+.feedback-form textarea::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.feedback-form input:focus,
+.feedback-form textarea:focus {
+    outline: none;
+    border-color: var(--primary);
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.feedback-form textarea {
+    resize: none;
+}
+
+.feedback-form button {
+    padding: 14px;
+    border-radius: 10px;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+
+    background: var(--primary-gradient);
+    color: white;
+
+    transition: 0.3s ease;
+    box-shadow: 0 10px 25px rgba(79, 140, 255, 0.3);
+}
+
+.feedback-form button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 15px 35px rgba(79, 140, 255, 0.5);
+}
+
+.feedback-form button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.form-success {
+    text-align: center;
+    padding: 40px 20px;
+    border-radius: 18px;
+
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid var(--glass-border);
+}
+
+.form-success h2 {
+    margin-bottom: 10px;
+}
+
+.form-success p {
+    color: var(--text-dim);
+    margin-bottom: 20px;
+}
+
+.back-home {
+    display: inline-block;
+    padding: 10px 18px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+
+    background: var(--primary-gradient);
+}
+
+@media (max-width: 600px) {
+
+    .feedback-form {
+        padding: 18px;
+    }
+
+    .feedback-form input,
+    .feedback-form textarea {
+        font-size: 13px;
+    }
+
+    .feedback-form button {
+        padding: 12px;
+    }
+}
