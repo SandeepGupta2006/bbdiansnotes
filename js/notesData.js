@@ -172,7 +172,7 @@ const notesData = [
         modules: [
             {
                 moduleName: "Module 1: Differential Equations",
-                files: "DEFA Module 1.pdf"
+                files: ""
             },
             {
                 moduleName: "Module 2: Series Solution & Special Functions",
