@@ -29,7 +29,7 @@ body {
     font-family: Inter, sans-serif;
     color: var(--text-main);
     background: radial-gradient(circle at 50% -20%, #203a43, #0f2027 60%, #050505);
-    min-height: 100vh;
+    min-height: 100dvh;
     line-height: 1.5;
     display: flex;
     flex-direction: column;
@@ -112,8 +112,11 @@ body {
 }
 
 .notes-hero {
+    min-height: 100dvh;
     padding: 140px 0 60px;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .menu-toggle {
@@ -127,6 +130,10 @@ body {
 }
 
 @media (max-width: 768px) {
+
+    .notes-hero {
+            padding: 120px 20px 40px;
+    }
 
     .menu-toggle {
         display: block;
