@@ -4,10 +4,13 @@
     box-sizing: border-box;
 }
 
+html {
+    height: 100%;
+}
+
 html,
 body {
     width: 100%;
-    height: 100%;
     overflow-x: hidden;
 }
 
@@ -29,6 +32,7 @@ body {
     font-family: Inter, sans-serif;
     color: var(--text-main);
     background: radial-gradient(circle at 50% -20%, #203a43, #0f2027 60%, #050505);
+    background-attachment: fixed;
     min-height: 100dvh;
     line-height: 1.5;
     display: flex;
