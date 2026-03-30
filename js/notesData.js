@@ -27,8 +27,8 @@ const notesData = [
             }
         ],
         pyqs: [
-            { year: "2025-26", term: "Odd", file: "" },
-            { year: "2024-25", term: "Even", file: "" }
+            { year: "2023-24", term: "Odd", file: "Basic Electronics Engineering 2023-24 Odd Semester.pdf" },
+            { year: "2023-24", term: "Even", file: "Basic Electronics Engineering 2023-24 Even Semester.pdf" }
         ]
     },
 
@@ -360,24 +360,23 @@ const notesData = [
         modules: [
             {
                 moduleName: "Module 1: Electric Circuit & Basic Theorems",
-                files: ""
+                files: "BEE Module 1.pdf"
             },
             {
                 moduleName: "Module 2: A.C. Circuits",
-                files: ""
+                files: "BEE Module 2.pdf"
             },
             {
                 moduleName: "Module 3: Measuring Instruments , Electromagnetic and Transformer",
-                files: ""
+                files: "BEE Module 3.pdf"
             },
             {
                 moduleName: "Module 4: Electrical Machines",
-                files: ""
+                files: "BEE Module 4.pdf"
             }
         ],
         pyqs: [
-            { year: "2025-26", term: "Odd", file: "" },
-            { year: "2024-25", term: "Even", file: "" }
+            { year: "2025-26", term: "Odd", file: "Basics Electrical Engineering 2025-26 Odd Semester.pdf" }
         ]
     },
 
@@ -396,11 +395,11 @@ const notesData = [
         modules: [
             {
                 moduleName: "Module 1: Fundamentals of Communication",
-                files: ""
+                files: "CE Module 1.pdf"
             },
             {
                 moduleName: "Module 2: Vocabulary & Composition",
-                files: ""
+                files: "CE Module 2.pdf"
             },
             {
                 moduleName: "Module 3: Elements of Writing & Oral Communication",
@@ -408,8 +407,7 @@ const notesData = [
             }
         ],
         pyqs: [
-            { year: "2025-26", term: "Odd", file: "" },
-            { year: "2024-25", term: "Even", file: "" }
+            { year: "2025-26", term: "Odd", file: "Communicative English 2025-26 Odd Semester.pdf" }
         ]
     },
 
