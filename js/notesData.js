@@ -69,7 +69,7 @@ const notesData = [
             },
             {
                 moduleName: "Module 4: Relativistic Mechanics",
-                files: ""
+                files: "EP Module 4.pdf"
             }
         ],
         pyqs: [
@@ -175,7 +175,7 @@ const notesData = [
             },
             {
                 moduleName: "Module 2: Series Solution & Special Functions",
-                files: ""
+                files: "DEFA Module 2.pdf"
             },
             {
                 moduleName: "Module 3: Fourier Series",
@@ -183,7 +183,7 @@ const notesData = [
             },
             {
                 moduleName: "Module 4: Partial Differential Equations & Its Applications",
-                files: ""
+                files: "DEFA Module 4.pdf"
             }
         ],
         pyqs: [
