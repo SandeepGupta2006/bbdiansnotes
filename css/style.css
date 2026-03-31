@@ -4,14 +4,17 @@
     box-sizing: border-box;
 }
 
-html {
+/* html {
     height: 100%;
-}
+} */
 
 html,
 body {
     width: 100%;
     overflow-x: hidden;
+
+    min-height: 100dvh;
+    background-color: red;
 }
 
 :root {
@@ -32,8 +35,8 @@ body {
     font-family: Inter, sans-serif;
     color: var(--text-main);
     background: radial-gradient(circle at 50% -20%, #203a43, #0f2027 60%, #050505);
-    background-attachment: fixed;
-    min-height: 100dvh;
+    /* background-attachment: fixed; */
+    /* min-height: 100dvh; */
     line-height: 1.5;
     display: flex;
     flex-direction: column;
