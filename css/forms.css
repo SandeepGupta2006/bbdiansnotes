@@ -7,6 +7,7 @@
     background: rgba(255, 255, 255, 0.04);
     border: 1px solid var(--glass-border);
     backdrop-filter: blur(15px);
+    padding-bottom: 40px;
 }
 
 .feedback-form input,
@@ -86,6 +87,15 @@
     color: white;
 
     background: var(--primary-gradient);
+}
+
+.site-footer {
+    text-align: center;
+    padding: 30px 5%;
+    border-top: 1px solid var(--glass-border);
+    color: var(--text-dim);
+    font-size: 0.85rem;
+    font-weight: 700;
 }
 
 @media (max-width: 600px) {

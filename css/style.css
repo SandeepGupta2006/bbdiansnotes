@@ -125,6 +125,15 @@ body {
     z-index: 1001;
 }
 
+.site-footer {
+    text-align: center;
+    padding: 30px 5%;
+    border-top: 1px solid var(--glass-border);
+    color: var(--text-dim);
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
 @media (max-width: 768px) {
 
     .menu-toggle {
