@@ -23,7 +23,7 @@ const notesData = [
             },
             {
                 moduleName: "Module 3: Operational Amplifiers & Digital Electronics",
-                files: ""
+                files: "BEE Module 3.pdf"
             }
         ],
         pyqs: [
@@ -73,8 +73,9 @@ const notesData = [
             }
         ],
         pyqs: [
-            { year: "2025-26", term: "Odd", file: "" },
-            { year: "2024-25", term: "Even", file: "" }
+            { year: "September 2024", term: "SPoC", file: "Engineering Physics September 2024 SPoC.pdf" },
+            { year: "2023-24", term: "Odd", file: "Engineering Physics 2023-24 Odd Semester.pdf" },
+            { year: "2023-24", term: "Even", file: "Engineering Physics 2023-24 Even Semester.pdf" }
         ]
     },
 
@@ -122,8 +123,7 @@ const notesData = [
             }
         ],
         pyqs: [
-            { year: "2025-26", term: "Odd", file: "" },
-            { year: "2024-25", term: "Even", file: "" }
+            { year: "2023-24", term: "Even", file: "Engineering Mechanics 2023-24 Even Semester.pdf" }
         ]
     },
 
@@ -152,8 +152,7 @@ const notesData = [
             }
         ],
         pyqs: [
-            { year: "2025-26", term: "Odd", file: "" },
-            { year: "2024-25", term: "Even", file: "" }
+            { year: "2025-26", term: "Odd", file: "" }
         ]
     },
 
@@ -172,7 +171,7 @@ const notesData = [
         modules: [
             {
                 moduleName: "Module 1: Differential Equations",
-                files: ""
+                files: "DEFA Module 1.pdf"
             },
             {
                 moduleName: "Module 2: Series Solution & Special Functions",
@@ -188,8 +187,7 @@ const notesData = [
             }
         ],
         pyqs: [
-            { year: "2025-26", term: "Odd", file: "" },
-            { year: "2024-25", term: "Even", file: "" }
+            { year: "2023-24", term: "Even", file: "Differential Equations & Fourier Analysis 2023-24 Even Semester.pdf" }
         ]
     },
 
@@ -220,8 +218,7 @@ const notesData = [
             }
         ],
         pyqs: [
-            { year: "2025-26", term: "Odd", file: "" },
-            { year: "2024-25", term: "Even", file: "" }
+            { year: "2025-26", term: "Odd", file: "" }
         ]
     },
 
@@ -250,8 +247,8 @@ const notesData = [
             }
         ],
         pyqs: [
-            { year: "2025-26", term: "Odd", file: "" },
-            { year: "2024-25", term: "Even", file: "" }
+            { year: "2025-26", term: "Odd", file: "Computer Concepts & Programming in C 2025-26 Odd Semester.pdf" },
+            { year: "2023-24", term: "Odd", file: "Computer Concepts & Programming in C 2023-24 Odd Semester.pdf" }
         ]
     },
 
@@ -286,8 +283,11 @@ const notesData = [
             }
         ],
         pyqs: [
-            { year: "2025-26", term: "Odd", file: "" },
-            { year: "2024-25", term: "Even", file: "" }
+            { year: "2025-26", term: "Odd", file: "Matrices & Calculus 2025-26 Odd Semester.pdf" },
+            { year: "2023-24", term: "Odd", file: "Matrices & Calculus 2023-24 Odd Semester.pdf" },
+            { year: "2022-23", term: "Odd", file: "Matrices & Calculus 2022-23 Odd Semester.pdf" },
+            { year: "2019-20", term: "Odd", file: "Matrices & Calculus 2019-20 Odd Semester.pdf" },
+            { year: "2018-19", term: "Odd", file: "Matrices & Calculus 2018-19 Odd Semester.pdf" }
         ]
     },
 
@@ -307,41 +307,41 @@ const notesData = [
             {
                 moduleName: "Module 1",
                 chapters: [
-                    { name: "Atomic Structure & Chemical Bonding", file: "" },
-                    { name: "Reactions Kinetics", file: "" },
-                    { name: "Electrochemistry", file: "" },
-                    { name: "Allotropes of Carbon", file: "" },
-                    { name: "Nanomaterials", file: "" },
-                    { name: "Solid State", file: "" },
-                    { name: "Liquid Crystals", file: "" }
+                    { name: "Atomic Structure & Chemical Bonding", file: "EC Module 1 Ch 1.pdf" },
+                    { name: "Reactions Kinetics", file: "EC Module 1 Ch 2.pdf" },
+                    { name: "Electrochemistry", file: "EC Module 1 Ch 3.pdf" },
+                    { name: "Allotropes of Carbon", file: "EC Module 1 Ch 4.pdf" },
+                    { name: "Nanomaterials", file: "EC Module 1 Ch 5.pdf" },
+                    { name: "Solid State", file: "EC Module 1 Ch 6.pdf" },
+                    { name: "Liquid Crystals", file: "EC Module 1 Ch 7.pdf" }
                 ]
             },
             {
                 moduleName: "Module 2",
                 chapters: [
-                    { name: "Stereochemistry", file: "" },
-                    { name: "Green Chemistry", file: "" }
+                    { name: "Stereochemistry", file: "EC Module 2 Ch 1.pdf" },
+                    { name: "Green Chemistry", file: "EC Module 2 Ch 2.pdf" }
                 ]
             },
             {
                 moduleName: "Module 3",
                 chapters: [
-                    { name: "Principles of Polymer Chemistry", file: "" }
+                    { name: "Principles of Polymer Chemistry", file: "EC Module 3.pdf" }
                 ]
             }, 
             {
                 moduleName: "Module 4",
                 chapters: [
-                    { name: "Analytical Techniques", file: "" },
-                    { name: "Water Technology", file: "" },
-                    { name: "BIS (Bureau of Indian Standards)", file: "" },
-                    { name: "Biofuels", file: "" }
+                    { name: "Analytical Techniques", file: "EC Module 4 Ch 1.pdf" },
+                    { name: "Water Technology", file: "EC Module 4 Ch 2.pdf" },
+                    { name: "BIS (Bureau of Indian Standards)", file: "EC Module 4 Ch 3.pdf" },
+                    { name: "Biofuels", file: "EC Module 4 Ch 4.pdf" }
                 ]
             }
         ],
         pyqs: [
-            { year: "2025-26", term: "Odd", file: "" },
-            { year: "2024-25", term: "Even", file: "" }
+            { year: "2025-26", term: "Odd", file: "Engineering Chemistry 2025-26 Odd Semester.pdf" },
+            { year: "2023-24", term: "Odd", file: "Engineering Chemistry 2023-24 Odd Semester.pdf" }
         ]
     },
 
@@ -376,7 +376,8 @@ const notesData = [
             }
         ],
         pyqs: [
-            { year: "2025-26", term: "Odd", file: "Basics Electrical Engineering 2025-26 Odd Semester.pdf" }
+            { year: "2025-26", term: "Odd", file: "Basics Electrical Engineering 2025-26 Odd Semester.pdf" }, 
+            { year: "2023-24", term: "Odd", file: "Basics Electrical Engineering 2023-24 Odd Semester.pdf" }
         ]
     },
 
@@ -403,11 +404,12 @@ const notesData = [
             },
             {
                 moduleName: "Module 3: Elements of Writing & Oral Communication",
-                files: ""
+                files: "CE Module 3.pdf"
             }
         ],
         pyqs: [
-            { year: "2025-26", term: "Odd", file: "Communicative English 2025-26 Odd Semester.pdf" }
+            { year: "2025-26", term: "Odd", file: "Communicative English 2025-26 Odd Semester.pdf" },
+            { year: "2023-24", term: "Odd", file: "Communicative English 2023-24 Odd Semester.pdf" }
         ]
     },
 
@@ -426,24 +428,20 @@ const notesData = [
         modules: [
             {
                 moduleName: "Module 1: Introduction to Artificial Intelligence",
-                files: ""
+                files: "BAI Module 1.pdf"
             },
             {
                 moduleName: "Module 2: AI Terminologies & Basic Concepts",
-                files: ""
+                files: "BAI Module 2.pdf"
             },
             {
-                moduleName: "Module 3: Knowledge Representation & Reasoning",
-                files: ""
-            },
-            {
-                moduleName: "Module 4: Applications & Future of Artificial Intelligence",
-                files: ""
+                moduleName: "Module 3: Applications & Future of Artificial Intelligence",
+                files: "BAI Module 3.pdf"
             }
         ],
         pyqs: [
-            { year: "2025-26", term: "Odd", file: "" },
-            { year: "2024-25", term: "Even", file: "" }
+            { year: "2025-26", term: "Odd", file: "Basics of Artificial Intelligence 2025-26 Odd Semester.pdf" },
+            { year: "2023-24", term: "Odd", file: "Basics of Artificial Intelligence 2023-24 Odd Semester.pdf" }
         ]
     },
 
