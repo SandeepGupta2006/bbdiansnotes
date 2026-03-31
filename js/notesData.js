@@ -175,11 +175,11 @@ const notesData = [
             },
             {
                 moduleName: "Module 2: Series Solution & Special Functions",
-                files: "DEFA Module 2.pdf"
+                files: ""
             },
             {
                 moduleName: "Module 3: Fourier Series",
-                files: ""
+                files: "DEFA Module 3.pdf"
             },
             {
                 moduleName: "Module 4: Partial Differential Equations & Its Applications",
