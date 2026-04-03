@@ -11,228 +11,6 @@
 
     <link rel="icon" type="image/png" href="assets/icon.png">
 
-    <style>
-        html,
-        body {
-            height: 100%;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-        }
-
-        .viewer-layout {
-            display: grid;
-            grid-template-columns: 320px 1fr;
-            gap: 0;
-            height: 100vh;
-            padding-top: 72px;
-            background: var(--bg-dark);
-        }
-
-        /* ===================== */
-        /* SIDEBAR               */
-        /* ===================== */
-        .viewer-sidebar {
-            background: rgba(10, 10, 26, 0.4);
-            backdrop-filter: blur(20px);
-            border-right: 1px solid var(--glass-border);
-            padding: 30px 20px;
-            overflow-y: auto;
-            display: flex;
-            flex-direction: column;
-            gap: 30px;
-        }
-
-        /* Scrollbar */
-        .viewer-sidebar::-webkit-scrollbar {
-            width: 5px;
-        }
-
-        .viewer-sidebar::-webkit-scrollbar-track {
-            background: transparent;
-        }
-
-        .viewer-sidebar::-webkit-scrollbar-thumb {
-            background: var(--glass-border);
-            border-radius: 10px;
-        }
-
-        /* Sections */
-        .sidebar-section h4 {
-            font-size: 14px;
-            color: white;
-            margin-bottom: 15px;
-            padding-left: 5px;
-            border-left: 3px solid var(--primary);
-        }
-
-        /* Module Label */
-        .module-group-label {
-            font-size: 11px;
-            color: var(--primary);
-            font-weight: 800;
-            text-transform: uppercase;
-            letter-spacing: 1.5px;
-            margin: 25px 0 10px 5px;
-            opacity: 0.9;
-        }
-
-        /* Links */
-        .module-link {
-            padding: 12px 16px;
-            border-radius: 10px;
-            font-size: 14px;
-            color: var(--text-dim);
-            cursor: pointer;
-            transition: 0.3s;
-            margin-bottom: 4px;
-            display: flex;
-            align-items: center;
-            border: 1px solid transparent;
-            text-decoration: none;
-        }
-
-        .module-link:hover {
-            background: rgba(255, 255, 255, 0.05);
-            color: white;
-        }
-
-        .module-link.active {
-            background: rgba(99, 102, 241, 0.15);
-            color: white;
-            border-color: rgba(99, 102, 241, 0.3);
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-        }
-
-        /* Chapter indent */
-        .chapter-indent {
-            margin-left: 15px;
-            font-size: 13px;
-            position: relative;
-        }
-
-        .chapter-indent::before {
-            content: "";
-            position: absolute;
-            left: -10px;
-            top: 50%;
-            width: 6px;
-            height: 1px;
-            background: var(--glass-border);
-        }
-
-        /* ===================== */
-        /* PDF VIEW AREA         */
-        /* ===================== */
-        .pdf-container {
-            padding: 30px;
-            display: flex;
-            flex-direction: column;
-            background: radial-gradient(circle at center, #111, #050505);
-        }
-
-        .pdf-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 20px;
-        }
-
-        .pdf-header h2 {
-            font-size: 20px;
-            font-weight: 700;
-            letter-spacing: -0.5px;
-        }
-
-        .pdf-wrapper {
-            flex: 1;
-            border-radius: 20px;
-            overflow: hidden;
-            border: 1px solid var(--glass-border);
-            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
-        }
-
-        /* iframe */
-        iframe {
-            width: 100%;
-            height: 100%;
-            border: none;
-        }
-
-        /* ===================== */
-        /* MOBILE / RESPONSIVE   */
-        /* ===================== */
-        @media (max-width: 992px) {
-
-            .viewer-layout {
-                grid-template-columns: 1fr;
-                padding-top: 65px;
-                height: calc(100vh - 65px);
-            }
-
-            /* Sidebar Drawer */
-            .viewer-sidebar {
-                position: fixed;
-                top: 0;
-                left: -100%;
-                width: 280px;
-                height: 100vh;
-                z-index: 2000;
-                background: rgba(10, 10, 26, 0.98);
-                backdrop-filter: blur(20px);
-                transition: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-                box-shadow: 20px 0 50px rgba(0, 0, 0, 0.8);
-                padding-top: 80px;
-            }
-
-            .viewer-sidebar.active {
-                left: 0;
-            }
-
-            /* Toggle Button */
-            #mobileSidebarToggle {
-                display: inline-block !important;
-            }
-
-            /* PDF Area */
-            .pdf-container {
-                padding: 15px;
-                height: 100%;
-            }
-
-            .pdf-header h2 {
-                font-size: 15px;
-                white-space: nowrap;
-                overflow: hidden;
-                text-overflow: ellipsis;
-                max-width: 130px;
-            }
-
-            .pdf-wrapper {
-                border-radius: 12px;
-            }
-        }
-
-        /* ===================== */
-        /* OVERLAY               */
-        /* ===================== */
-        .sidebar-overlay {
-            display: none;
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100vw;
-            height: 100vh;
-            background: rgba(0, 0, 0, 0.7);
-            backdrop-filter: blur(4px);
-            z-index: 1999;
-        }
-
-        .sidebar-overlay.active {
-            display: block;
-        }
-    </style>
-
 </head>
 
 <body>
@@ -261,9 +39,18 @@
 
         <main class="pdf-container">
             <div class="pdf-header">
+                
+                <div class="mobile-guide" id="mobileGuide">
+                    <div class="guide-box">
+                        Tap to switch modules
+                    </div>
+                </div>
+
                 <button id="mobileSidebarToggle" class="secondary-btn"
                     style="display: none; padding: 8px 12px; margin-right: 10px;">☰</button>
+
                 <h2 id="currentDocTitle">Select a module</h2>
+
                 <a id="downloadBtn" href="#" class="primary-btn" style="padding: 10px 20px;" download>Download 📥</a>
             </div>
 
@@ -281,11 +68,9 @@
     <script src="js/viewer.js"></script>
 
     <script>
-        // --- MOBILE SIDEBAR LOGIC ---
         const mobileToggle = document.getElementById("mobileSidebarToggle");
         const sidebar = document.querySelector(".viewer-sidebar");
 
-        // Create an overlay element dynamically
         const overlay = document.createElement("div");
         overlay.className = "sidebar-overlay";
         document.body.appendChild(overlay);
@@ -298,7 +83,6 @@
         mobileToggle.addEventListener("click", toggleMobileMenu);
         overlay.addEventListener("click", toggleMobileMenu);
 
-        // Close sidebar automatically when a link is clicked (on mobile)
         document.addEventListener("click", (e) => {
             if (e.target.classList.contains("module-link") && window.innerWidth <= 992) {
                 toggleMobileMenu();

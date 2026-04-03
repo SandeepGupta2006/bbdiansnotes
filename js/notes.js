@@ -4,15 +4,31 @@ const branchFilter = document.getElementById("branchFilter");
 const semFilter = document.getElementById("semFilter");
 const typeFilter = document.getElementById("typeFilter");
 
+function getAbbreviation(text) {
+    const ignoreWords = ["and", "in", "of", "to", "for", "&", "with", "on", "by", "from"];
+
+    return text
+        .toLowerCase()
+        .replace(/[^a-z\s]/g, "") // remove symbols like &
+        .split(" ")
+        .filter(word => word && !ignoreWords.includes(word))
+        .map(word => word[0])
+        .join("");
+}
+
 function renderNotes() {
 
     container.innerHTML = "";
 
     const filtered = notesData.filter(note => {
 
-        return (
+    const searchText = searchInput.value.toLowerCase();
 
-            note.subject.toLowerCase().includes(searchInput.value.toLowerCase()) &&
+        return (
+            (
+                note.subject.toLowerCase().includes(searchText) ||
+                getAbbreviation(note.subject).includes(searchText)
+            ) &&
 
             (!branchFilter.value ||
                 (Array.isArray(note.branch)
