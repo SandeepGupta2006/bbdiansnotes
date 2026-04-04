@@ -171,19 +171,41 @@ const notesData = [
         modules: [
             {
                 moduleName: "Module 1: Differential Equations",
-                files: "DEFA Module 1.pdf"
+                chapters: [
+                    { name: "Differential Equations", file: "DEFA Module 1 Ch 1.pdf" },
+                    { name: "Complementary Function & Particular Integral", file: "DEFA Module 1 Ch 2.pdf" },
+                    { name: "Homogeneous Linear Differential Equations", file: "DEFA Module 1 Ch 3.pdf" },
+                    { name: "Method of Variation of Parameters", file: "DEFA Module 1 Ch 4.pdf" },
+                    { name: "Ordinary Simultaneous Differential Equation", file: "DEFA Module 1 Ch 5.pdf" },
+                    { name: "Changing the Independent & Dependent Variable Method", file: "DEFA Module 1 Ch 6.pdf" }
+                ]
             },
             {
                 moduleName: "Module 2: Series Solution & Special Functions",
-                files: ""
+                chapters: [
+                    { name: "Series Solution of 2nd Order Differential Equations", file: "" },
+                    { name: "Bessel's Equation & Functions", file: "" },
+                    { name: "Legendre's Equation & Polynomials", file: "" }
+                ]
+
             },
             {
                 moduleName: "Module 3: Fourier Series",
-                files: "DEFA Module 3.pdf"
+                chapters: [
+                    { name: "Fourier Series", file: "DEFA Module 3 Ch 1.pdf" },
+                    { name: "Discontinuous Functions", file: "DEFA Module 3 Ch 2.pdf" },
+                    { name: "Half-Range Fourier Series", file: "" },
+                    { name: "Change of Interval", file: "" }
+                ]
             },
             {
                 moduleName: "Module 4: Partial Differential Equations & Its Applications",
-                files: "DEFA Module 4.pdf"
+                chapters: [
+                    { name: "Partial Differential Equations", file: "DEFA Module 4 Ch 1.pdf" },
+                    { name: "Method of Separation of Variables", file: "DEFA Module 4 Ch 2.pdf" },
+                    { name: "Wave Equation", file: "DEFA Module 4 Ch 3.pdf" },
+                    { name: "Heat/Laplace Equation", file: "DEFA Module 4 Ch 4.pdf" },
+                ]
             }
         ],
         pyqs: [
@@ -202,19 +224,30 @@ const notesData = [
             "B.Tech CSE-AIBC": "1st"
         },
         type: "Notes",
-        available: "no",
+        available: "yes",
         modules: [
             {
                 moduleName: "Module 1: Environment & Ecology",
-                files: ""
+                chapters: [
+                    { name: "Environment & Ecology", file: "EES Module 1 Ch 1.pdf" },
+                    { name: "Human Impact on Environment", file: "EES Module 1 Ch 2.pdf" },
+                    { name: "Environmental Impact Assessment (EIA)", file: "EES Module 1 Ch 3.pdf" }
+                ]
             },
             {
                 moduleName: "Module 2: Natural Resource & Its Sustainable Uses",
-                files: ""
+                chapters: [
+                    { name: "Natural Resources", file: "EES Module 2 Ch 1.pdf" },
+                    { name: "Energy", file: "EES Module 2 Ch 2.pdf" }
+                ]
             },
             {
                 moduleName: "Module 3: Environmental Pollution & Protection",
-                files: ""
+                chapters: [
+                    { name: "Environmental Pollution", file: "EES Module 3 Ch 1.pdf" },
+                    { name: "Current Environmental Issues", file: "EES Module 3 Ch 2.pdf" },
+                    { name: "Environmental Protection", file: "EES Module 3 Ch 3.pdf" }
+                ]
             }
         ],
         pyqs: [
