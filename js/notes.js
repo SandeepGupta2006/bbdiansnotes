@@ -9,7 +9,7 @@ function getAbbreviation(text) {
 
     return text
         .toLowerCase()
-        .replace(/[^a-z\s]/g, "") // remove symbols like &
+        .replace(/[^a-z\s]/g, "")
         .split(" ")
         .filter(word => word && !ignoreWords.includes(word))
         .map(word => word[0])
@@ -22,7 +22,7 @@ function renderNotes() {
 
     const filtered = notesData.filter(note => {
 
-    const searchText = searchInput.value.toLowerCase();
+    const searchText = searchInput.value.toLowerCase().trim();
 
         return (
             (
