@@ -23,7 +23,10 @@ const notesData = [
             },
             {
                 moduleName: "Module 3: Operational Amplifiers & Digital Electronics",
-                files: "BEE Module 3.pdf"
+                chapters: [
+                    { name: "Operational Amplifiers", file: "BEE Module 3 Ch 1.pdf" },
+                    { name: "Digital Electronics", file: "BEE Module 3 Ch 2.pdf" }
+                ]
             }
         ],
         pyqs: [
@@ -194,8 +197,8 @@ const notesData = [
                 chapters: [
                     { name: "Fourier Series", file: "DEFA Module 3 Ch 1.pdf" },
                     { name: "Discontinuous Functions", file: "DEFA Module 3 Ch 2.pdf" },
-                    { name: "Half-Range Fourier Series", file: "" },
-                    { name: "Change of Interval", file: "" }
+                    { name: "Half-Range Fourier Series", file: "DEFA Module 3 Ch 3.pdf" },
+                    { name: "Change of Interval", file: "DEFA Module 3 Ch 4.pdf" }
                 ]
             },
             {
