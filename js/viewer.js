@@ -13,6 +13,8 @@ const downloadBtn = document.getElementById("downloadBtn");
 const subjectHeader = document.getElementById("subjectTitle");
 const mobileSubject = document.getElementById("mobileSubject");
 
+document.title = `${subjectName} - BBDians Notes`;
+
 function toTitleCase(str) {
     return str.toLowerCase().replace(/\b\w/g, char => char.toUpperCase());
 }
