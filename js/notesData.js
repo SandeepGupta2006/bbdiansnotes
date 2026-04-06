@@ -119,7 +119,7 @@ const notesData = [
             {
                 moduleName: "Module 4",
                 chapters: [
-                    { name: "Kinematics & Kinetics", file: "" },
+                    { name: "Kinematics & Kinetics", file: "EM Module 4 Ch 1.pdf" },
                     { name: "Simple Stress & Strain", file: "" }
                 ]
 
@@ -186,8 +186,8 @@ const notesData = [
             {
                 moduleName: "Module 2: Series Solution & Special Functions",
                 chapters: [
-                    { name: "Series Solution of 2nd Order Differential Equations", file: "" },
-                    { name: "Bessel's Equation & Functions", file: "" },
+                    { name: "Series Solution of 2nd Order Differential Equations", file: "DEFA Module 2 Ch 1.pdf" },
+                    { name: "Bessel's Equation & Functions", file: "DEFA Module 2 Ch 2.pdf" },
                     { name: "Legendre's Equation & Polynomials", file: "" }
                 ]
 
