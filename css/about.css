@@ -126,6 +126,22 @@
     margin: 10px 0 5px;
 }
 
+.about-cta {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.about-cta a {
+    display: inline-block;
+    padding: 12px 24px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
 .site-footer {
     text-align: center;
     padding: 30px 5%;
