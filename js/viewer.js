@@ -175,25 +175,31 @@ if (window.innerWidth <= 992 && guide && toggleBtn) {
     const dismissed = localStorage.getItem("mobileGuideDismissed");
 
     if (!dismissed) {
-
-        const showGuide = () => {
+        const showOnboarding = () => {
             guide.style.display = "block";
-            toggleBtn.classList.add("guide-pulse");
-
-            setTimeout(() => {
-                guide.style.display = "none";
-                toggleBtn.classList.remove("guide-pulse");
-            }, 3000);
+            toggleBtn.classList.add("guide-active");
+            document.body.style.overflow = "hidden";
         };
 
-        showGuide();
-        const interval = setInterval(showGuide, 7000);
+        const hideOnboarding = () => {
+            guide.style.display = "none";
+            toggleBtn.classList.remove("guide-active");
+            document.body.style.overflow = "";
+        };
+
+        setTimeout(showOnboarding, 2000);
 
         toggleBtn.addEventListener("click", () => {
-            localStorage.setItem("mobileGuideDismissed", "true");
-            clearInterval(interval);
-            guide.style.display = "none";
-            toggleBtn.classList.remove("guide-pulse");
+            if (toggleBtn.classList.contains("guide-active")) {
+                localStorage.setItem("mobileGuideDismissed", "true");
+                hideOnboarding();
+            }
         });
+
+        setTimeout(() => {
+            if (!localStorage.getItem("mobileGuideDismissed")) {
+                hideOnboarding();
+            }
+        }, 4000);
     }
 }
