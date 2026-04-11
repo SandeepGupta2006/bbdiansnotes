@@ -120,7 +120,7 @@ const notesData = [
                 moduleName: "Module 4",
                 chapters: [
                     { name: "Kinematics & Kinetics", file: "EM Module 4 Ch 1.pdf" },
-                    { name: "Simple Stress & Strain", file: "" }
+                    { name: "Simple Stress & Strain", file: "EM Module 4 Ch 2.pdf" }
                 ]
 
             }
