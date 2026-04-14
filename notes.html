@@ -2,27 +2,47 @@
 <html lang="en">
 
 <head>
-    <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z1J099MRKG"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
-
         gtag('config', 'G-Z1J099MRKG');
     </script>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Notes - BBDians Notes</title>
+
+    <title>BBD University Semester Notes & PYQs</title>
+
+    <meta name="description"
+        content="Access the complete BBD University Notes Library. Download semester-wise notes and previous year questions (PYQs) for all years.">
+    <meta name="keywords"
+        content="BBD notes, BBD university notes, engineering notes, btech notes, bbd pyqs, bbd university pyqs, babu banarsi das university notes, bbdu btech notes, cse notes">
+
+    <link rel="icon" href="https://bbdiansnotes.in/assets/icon.png" type="image/png">
+    <link rel="apple-touch-icon" href="https://bbdiansnotes.in/assets/icon.png">
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/notes.css">
 
-    <meta name="description" content="BBDians Notes - Notes and PYQs for BBD University students">
-    <meta name="keywords" content="BBD notes, BBD university notes, engineering notes, btech notes, bbd pyqs, bbd university pyqs, babu banarsi das university notes, babu banarsi das university pyqs, bbdu btech notes, bbdu btech pyqs, cse notes">
-
-    <link rel="shortcut icon" href="assets/icon.png" type="image/x-icon">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://bbdiansnotes.in/index.html"
+      },{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Notes",
+        "item": "https://bbdiansnotes.in/notes.html"
+      }]
+    }
+    </script>
 </head>
 
 <body>
@@ -36,58 +56,64 @@
             <a href="feedback.html">Feedback</a>
             <a href="contribute.html">Contribute</a>
         </nav>
-
-        <!-- <button id="themeToggle" class="theme-toggle">🌙</button> -->
-        <button id="menuToggle" class="menu-toggle">☰</button>
+        <button id="menuToggle" class="menu-toggle" aria-label="Open Navigation">☰</button>
     </header>
 
-    <section class="notes-hero">
-        <div class="container">
-            <h1>Notes Library</h1>
-            <p>Search, filter and download notes & pyqs easily</p>
-        </div>
-    </section>
+    <main>
+        <section class="notes-hero">
+            <div class="container">
+                <h1>BBD University Notes Library</h1>
+                <p>Search, filter & download notes & PYQs easily.</p>
+            </div>
+        </section>
 
-    <section class="filters">
-        <div class="container filters-row">
+        <section class="filters">
+            <div class="container filters-row">
+                <input type="text" id="searchInput" placeholder="Search subject (e.g. Data Structures)..."
+                    aria-label="Search Subjects">
 
-            <input type="text" id="searchInput" placeholder="Search subject...">
+                <select id="branchFilter" aria-label="Filter by Branch">
+                    <option value="">All Branches</option>
+                    <option value="B.Tech CSE">B.Tech CSE</option>
+                    <option value="B.Tech CSE-AI">B.Tech CSE-AI</option>
+                    <option value="B.Tech CSE-AIBC">B.Tech CSE-AIBC</option>
+                    <option value="B.Tech CSE-CCML">B.Tech CSE-CCML</option>
+                </select>
 
-            <select id="branchFilter">
-                <option value="">All Branches</option>
-                <option value="B.Tech CSE">B.Tech CSE</option>
-                <option value="B.Tech CSE-AI">B.Tech CSE-AI</option>
-                <option value="B.Tech CSE-AIBC">B.Tech CSE-AIBC</option>
-                <option value="B.Tech CSE-CCML">B.Tech CSE-CCML</option>
-            </select>
+                <select id="semFilter" aria-label="Filter by Semester">
+                    <option value="">All Semesters</option>
+                    <option value="1st">Semester 1</option>
+                    <option value="2nd">Semester 2</option>
+                    <option value="3rd">Semester 3</option>
+                    <option value="4th">Semester 4</option>
+                    <option value="5th">Semester 5</option>
+                    <option value="6th">Semester 6</option>
+                    <option value="7th">Semester 7</option>
+                    <option value="8th">Semester 8</option>
+                </select>
 
-            <select id="semFilter">
-                <option value="">All Semesters</option>
-                <option value="1st">1</option>
-                <option value="2nd">2</option>
-                <option value="3rd">3</option>
-                <option value="4th">4</option>
-                <option value="5th">5</option>
-                <option value="6th">6</option>
-                <option value="7th">7</option>
-                <option value="8th">8</option>
-            </select>
+                <select id="typeFilter" hidden>
+                    <option value="">All</option>
+                    <option value="Notes" selected>Notes</option>
+                    <option value="PYQ">PYQ</option>
+                </select>
+            </div>
+        </section>
 
-            <select id="typeFilter" hidden>
-                <option value="">All</option>
-                <option value="Notes" selected>Notes</option>
-                <option value="PYQ">PYQ</option>
-            </select>
-
-        </div>
-    </section>
-
-    <section class="notes-grid-section">
-        <div class="container notes-grid" id="notesContainer"></div>
-    </section>
+        <section class="notes-grid-section">
+            <div class="container">
+                <div style="display:none;">
+                    <h2>Study Materials for BBD University</h2>
+                    <p>Providing free PDF notes and previous year papers for Computer Science, Artificial Intelligence,
+                        and Cloud Computing students at BBDNIIT and BBDU.</p>
+                </div>
+                <div class="notes-grid" id="notesContainer"></div>
+            </div>
+        </section>
+    </main>
 
     <footer class="site-footer">
-        <p>© 2026 BBDians Notes. Built for the BBD community.</p>
+        <p>© 2026 BBDians Notes. The ultimate study hub for BBD University students.</p>
     </footer>
 
     <div class="menu-overlay" id="menuOverlay"></div>

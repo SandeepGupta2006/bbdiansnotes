@@ -2,22 +2,43 @@
 <html lang="en">
 
 <head>
-    <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z1J099MRKG"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
-
         gtag('config', 'G-Z1J099MRKG');
     </script>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About - BBDians Notes</title>
+
+    <title>About BBDians Notes | The Mission</title>
+    <meta name="description"
+        content="Meet Sandeep Gupta, the developer behind BBDians Notes. Providing BBD University students with organized study materials and PYQs.">
+
+    <link rel="icon" href="https://bbdiansnotes.in/assets/icon.png" type="image/png">
+    <link rel="apple-touch-icon" href="https://bbdiansnotes.in/assets/icon.png">
+
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/about.css">
-    <link rel="shortcut icon" href="assets/icon.png" type="image/x-icon">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Sandeep Gupta",
+      "url": "https://sandeepgupta2006.github.io/",
+      "jobTitle": "Student & Developer",
+      "affiliation": {
+        "@type": "EducationalOrganization",
+        "name": "Babu Banarsi Das University"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/in/sandeep-gupta-santhon/"
+      ]
+    }
+    </script>
 </head>
 
 <body>
@@ -31,72 +52,73 @@
             <a href="feedback.html">Feedback</a>
             <a href="contribute.html">Contribute</a>
         </nav>
-        <button id="menuToggle" class="menu-toggle">☰</button>
+        <button id="menuToggle" class="menu-toggle" aria-label="Toggle Menu">☰</button>
     </header>
 
-    <section class="notes-hero">
-        <div class="container">
-            <h1>About Us</h1>
-            <p>Empowering BBD students with seamless access to academic resources.</p>
-        </div>
-    </section>
+    <main>
+        <section class="notes-hero">
+            <div class="container">
+                <h1>About BBDians Notes</h1>
+                <p>Empowering BBD University students with seamless access to academic resources in Lucknow.</p>
+            </div>
+        </section>
 
-    <main class="container about-container">
+        <div class="container about-container">
 
-        <section class="dev-card">
-            <div class="dev-flex">
-                <div class="dev-photo">
-                    <img src="assets/dev.png" alt="Developer Photo">
-                </div>
-                <div class="dev-info">
-                    <span class="tagline">The Developer</span>
-                    <h2>Sandeep Gupta</h2>
-                    <p>BBDU Student</p>
-                    <div class="dev-links">
-                        <a href="https://sandeepgupta2006.github.io/" class="small-btn portfolio"
-                            target="_blank">Portfolio</a>
-                        <a href="https://www.linkedin.com/in/sandeep-gupta-santhon/" class="small-btn linkedin"
-                            target="_blank">LinkedIn</a>
+            <section class="dev-card">
+                <div class="dev-flex">
+                    <div class="dev-photo">
+                        <img src="assets/dev.png" alt="Sandeep Gupta - Developer of BBDians Notes">
+                    </div>
+                    <div class="dev-info">
+                        <span class="tagline">The Developer</span>
+                        <h2>Sandeep Gupta</h2>
+                        <p>BBDU Student & Full-Stack Enthusiast</p>
+                        <div class="dev-links">
+                            <a href="https://sandeepgupta2006.github.io/" class="small-btn portfolio"
+                                target="_blank">Portfolio</a>
+                            <a href="https://www.linkedin.com/in/sandeep-gupta-santhon/" class="small-btn linkedin"
+                                target="_blank">LinkedIn</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <section class="about-card">
-            <div class="about-header">
-                <span class="tagline">MADE FOR BBDIANS, BY A BBDIAN</span>
-                <h2>Our Mission</h2>
-            </div>
-
-            <p>
-                <strong>BBDians Notes</strong> is a student-focused platform created to make academic resources easier
-                to access.
-                Instead of searching across multiple groups or drives, students can find organized notes and PYQs in one
-                place.
-            </p>
-
-            <div class="features-grid">
-                <div class="feature-item">
-                    <span class="icon">🎯</span>
-                    <h3>Centralized</h3>
-                    <p>Everything you need, from PYQs to notes, in one spot.</p>
+            <section class="about-card">
+                <div class="about-header">
+                    <span class="tagline">MADE FOR BBDIANS, BY A BBDIAN</span>
+                    <h2>Our Mission</h2>
                 </div>
-                <div class="feature-item">
-                    <span class="icon">⚡</span>
-                    <h3>Fast Access</h3>
-                    <p>Designed for quick downloads on any device.</p>
-                </div>
-            </div>
 
-            <div class="about-cta">
-                <a href="feedback.html" class="primary-btn">Give Feedback</a>
-                <a href="contribute.html" class="secondary-btn">Contribute</a>
-            </div>
-        </section>
+                <p>
+                    <strong>BBDians Notes</strong> is a specialized platform for <strong>Babu Banarsi Das University (BBDU)</strong> students.
+                    We simplify academic life by organizing semester-wise handwritten notes and solved previous year
+                    questions (PYQs) into a single, fast-loading hub.
+                </p>
+
+                <div class="features-grid">
+                    <div class="feature-item">
+                        <span class="icon" aria-hidden="true">🎯</span>
+                        <h3>BBDU Centralized</h3>
+                        <p>Everything from BBDU PYQs to unit-wise notes in one spot.</p>
+                    </div>
+                    <div class="feature-item">
+                        <span class="icon" aria-hidden="true">⚡</span>
+                        <h3>Optimized Access</h3>
+                        <p>Designed for fast mobile downloads during exam nights.</p>
+                    </div>
+                </div>
+
+                <div class="about-cta">
+                    <a href="feedback.html" class="primary-btn">Give Feedback</a>
+                    <a href="contribute.html" class="secondary-btn">Contribute Materials</a>
+                </div>
+            </section>
+        </div>
     </main>
 
     <footer class="site-footer">
-        <p>© 2026 BBDians Notes. Built for the BBD community.</p>
+        <p>© 2026 BBDians Notes. The ultimate study hub for BBD University students.</p>
     </footer>
 
     <div class="menu-overlay" id="menuOverlay"></div>
