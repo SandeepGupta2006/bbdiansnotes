@@ -188,7 +188,7 @@ const notesData = [
                 chapters: [
                     { name: "Series Solution of 2nd Order Differential Equations", file: "DEFA Module 2 Ch 1.pdf" },
                     { name: "Bessel's Equation & Functions", file: "DEFA Module 2 Ch 2.pdf" },
-                    { name: "Legendre's Equation & Polynomials", file: "" }
+                    { name: "Legendre's Equation & Polynomials", file: "DEFA Module 2 Ch 3.pdf" }
                 ]
 
             },
