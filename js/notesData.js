@@ -78,8 +78,10 @@ const notesData = [
             }
         ],
         pyqs: [
+            { year: "2025-26", term: "Odd", file: "Engineering Physics 2025-26 Odd Semester.pdf" },
+            { year: "2024-25", term: "Odd", file: "Engineering Physics 2024-25 Odd Semester.pdf" },
             { year: "2024-25", term: "Even", file: "Engineering Physics 2024-25 Even Semester.pdf" },
-            { year: "September 2024", term: "SPoC", file: "Engineering Physics September 2024 SPoC.pdf" },
+            { year: "September 2024", term: "SCoP", file: "Engineering Physics September 2024 SCoP.pdf" },
             { year: "2023-24", term: "Odd", file: "Engineering Physics 2023-24 Odd Semester.pdf" },
             { year: "2023-24", term: "Even", file: "Engineering Physics 2023-24 Even Semester.pdf" }
         ]
@@ -262,7 +264,7 @@ const notesData = [
             }
         ],
         pyqs: [
-            { year: "2025-26", term: "Even", file: "Environment & Ecological Sustainability 2025-26 Even Semester.pdf" }, 
+            { year: "2025-26", term: "Odd", file: "Environment & Ecological Sustainability 2025-26 Odd Semester.pdf" }, 
             { year: "2024-25", term: "Even", file: "Environment & Ecological Sustainability 2024-25 Even Semester.pdf" }
         ]
     },
