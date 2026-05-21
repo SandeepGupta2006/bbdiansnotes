@@ -30,10 +30,11 @@ const notesData = [
             }
         ],
         pyqs: [
-            { year: "2025-26", term: "Odd", file: "Basic Electronics Engineering 2025-26 Odd Semester.pdf" },
+            { year: "2026", term: "Even", file: "Basic Electronics Engineering 2026 Even Semester.pdf" },
             { year: "2024-25", term: "Even", file: "Basic Electronics Engineering 2024-25 Even Semester.pdf" },
-            { year: "2023-24", term: "Odd", file: "Basic Electronics Engineering 2023-24 Odd Semester.pdf" },
-            { year: "2023-24", term: "Even", file: "Basic Electronics Engineering 2023-24 Even Semester.pdf" }
+            { year: "2025-26", term: "Odd", file: "Basic Electronics Engineering 2025-26 Odd Semester.pdf" },
+            { year: "2023-24", term: "Even", file: "Basic Electronics Engineering 2023-24 Even Semester.pdf" },
+            { year: "2023-24", term: "Odd", file: "Basic Electronics Engineering 2023-24 Odd Semester.pdf" }
         ]
     },
 
@@ -78,6 +79,7 @@ const notesData = [
             }
         ],
         pyqs: [
+            { year: "2026", term: "Even", file: "Engineering Physics 2026 Even Semester.pdf" },
             { year: "2025-26", term: "Odd", file: "Engineering Physics 2025-26 Odd Semester.pdf" },
             { year: "2024-25", term: "Odd", file: "Engineering Physics 2024-25 Odd Semester.pdf" },
             { year: "2024-25", term: "Even", file: "Engineering Physics 2024-25 Even Semester.pdf" },
@@ -131,6 +133,7 @@ const notesData = [
             }
         ],
         pyqs: [
+            { year: "2026", term: "Even", file: "Engineering Mechanics 2026 Even Semester.pdf" },
             { year: "2024-25", term: "Even", file: "Engineering Mechanics 2024-25 Even Semester.pdf" }, 
             { year: "2023-24", term: "Even", file: "Engineering Mechanics 2023-24 Even Semester.pdf" }
         ]
@@ -161,6 +164,7 @@ const notesData = [
             }
         ],
         pyqs: [
+            { year: "2026", term: "Even", file: "Programming Concepts with Python 2026 Even Semester.pdf" },
             { year: "2024-25", term: "Even", file: "Programming Concepts with Python 2024-25 Even Semester.pdf" }, 
             { year: "2023-24", term: "Even", file: "Programming Concepts with Python 2023-24 Even Semester.pdf" },
         ]
@@ -219,6 +223,7 @@ const notesData = [
             }
         ],
         pyqs: [
+            { year: "2026", term: "Even", file: "Differential Equations & Fourier Analysis 2026 Even Semester.pdf" },
             { year: "2024-25", term: "Even", file: "Differential Equations & Fourier Analysis 2024-25 Even Semester.pdf" }, 
             { year: "2023-24", term: "Even", file: "Differential Equations & Fourier Analysis 2023-24 Even Semester.pdf" }, 
             { year: "2022-23", term: "Even", file: "Differential Equations & Fourier Analysis 2022-23 Even Semester.pdf" },
@@ -264,8 +269,10 @@ const notesData = [
             }
         ],
         pyqs: [
+            { year: "2026", term: "Even", file: "Environment & Ecological Sustainability 2026 Even Semester.pdf" },
             { year: "2025-26", term: "Odd", file: "Environment & Ecological Sustainability 2025-26 Odd Semester.pdf" }, 
-            { year: "2024-25", term: "Even", file: "Environment & Ecological Sustainability 2024-25 Even Semester.pdf" }
+            { year: "2024-25", term: "Even", file: "Environment & Ecological Sustainability 2024-25 Even Semester.pdf" },
+            { year: "2024-25", term: "Odd", file: "Environment & Ecological Sustainability 2024-25 Odd Semester.pdf" },
         ]
     },
 
