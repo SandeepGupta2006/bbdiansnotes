@@ -1,5 +1,7 @@
 const notesData = [
 
+    // // B.Tech First Year Syllabus
+
     // Basic Electronics Engineering
     {
         subject: "Basic Electronics Engineering",
@@ -134,7 +136,7 @@ const notesData = [
         ],
         pyqs: [
             { year: "2026", term: "Even", file: "Engineering Mechanics 2026 Even Semester.pdf" },
-            { year: "2024-25", term: "Even", file: "Engineering Mechanics 2024-25 Even Semester.pdf" }, 
+            { year: "2024-25", term: "Even", file: "Engineering Mechanics 2024-25 Even Semester.pdf" },
             { year: "2023-24", term: "Even", file: "Engineering Mechanics 2023-24 Even Semester.pdf" }
         ]
     },
@@ -165,7 +167,7 @@ const notesData = [
         ],
         pyqs: [
             { year: "2026", term: "Even", file: "Programming Concepts with Python 2026 Even Semester.pdf" },
-            { year: "2024-25", term: "Even", file: "Programming Concepts with Python 2024-25 Even Semester.pdf" }, 
+            { year: "2024-25", term: "Even", file: "Programming Concepts with Python 2024-25 Even Semester.pdf" },
             { year: "2023-24", term: "Even", file: "Programming Concepts with Python 2023-24 Even Semester.pdf" },
         ]
     },
@@ -224,8 +226,8 @@ const notesData = [
         ],
         pyqs: [
             { year: "2026", term: "Even", file: "Differential Equations & Fourier Analysis 2026 Even Semester.pdf" },
-            { year: "2024-25", term: "Even", file: "Differential Equations & Fourier Analysis 2024-25 Even Semester.pdf" }, 
-            { year: "2023-24", term: "Even", file: "Differential Equations & Fourier Analysis 2023-24 Even Semester.pdf" }, 
+            { year: "2024-25", term: "Even", file: "Differential Equations & Fourier Analysis 2024-25 Even Semester.pdf" },
+            { year: "2023-24", term: "Even", file: "Differential Equations & Fourier Analysis 2023-24 Even Semester.pdf" },
             { year: "2022-23", term: "Even", file: "Differential Equations & Fourier Analysis 2022-23 Even Semester.pdf" },
             { year: "2021-22", term: "Even", file: "Differential Equations & Fourier Analysis 2021-22 Even Semester.pdf" },
         ]
@@ -270,11 +272,12 @@ const notesData = [
         ],
         pyqs: [
             { year: "2026", term: "Even", file: "Environment & Ecological Sustainability 2026 Even Semester.pdf" },
-            { year: "2025-26", term: "Odd", file: "Environment & Ecological Sustainability 2025-26 Odd Semester.pdf" }, 
+            { year: "2025-26", term: "Odd", file: "Environment & Ecological Sustainability 2025-26 Odd Semester.pdf" },
             { year: "2024-25", term: "Even", file: "Environment & Ecological Sustainability 2024-25 Even Semester.pdf" },
             { year: "2024-25", term: "Odd", file: "Environment & Ecological Sustainability 2024-25 Odd Semester.pdf" },
         ]
     },
+
 
     // Computer Concepts & Programming in C
     {
@@ -382,7 +385,7 @@ const notesData = [
                 chapters: [
                     { name: "Principles of Polymer Chemistry", file: "EC Module 3.pdf" }
                 ]
-            }, 
+            },
             {
                 moduleName: "Module 4",
                 chapters: [
@@ -430,8 +433,8 @@ const notesData = [
             }
         ],
         pyqs: [
-            { year: "2025-26", term: "Odd", file: "Basics Electrical Engineering 2025-26 Odd Semester.pdf" }, 
-            { year: "2024-25", term: "Even", file: "Basics Electrical Engineering 2024-25 Even Semester.pdf" }, 
+            { year: "2025-26", term: "Odd", file: "Basics Electrical Engineering 2025-26 Odd Semester.pdf" },
+            { year: "2024-25", term: "Even", file: "Basics Electrical Engineering 2024-25 Even Semester.pdf" },
             { year: "2023-24", term: "Odd", file: "Basics Electrical Engineering 2023-24 Odd Semester.pdf" }
         ]
     },
@@ -500,6 +503,23 @@ const notesData = [
         ]
     },
 
+    // // B.Tech Second Year Syllabus
+
+    // Artificial Intelligence in Mechanical Engineering Systems
+    {
+        subject: "Artificial Intelligence in Mechanical Engineering Systems",
+        branch: ["B.Tech CSE-AI"],
+        semester: {
+            "B.Tech CSE-AI": "3rd"
+        },
+        type: "Notes",
+        available: "no",
+        modules: [
+        ],
+        pyqs: [
+        ]
+    },
+
     // Complex Analysis and Integral Transforms
     {
         subject: "Complex Analysis and Integral Transforms",
@@ -511,7 +531,11 @@ const notesData = [
             "B.Tech CSE-AIBC": "3rd"
         },
         type: "Notes",
-        available: "no"
+        available: "no",
+        modules: [
+        ],
+        pyqs: [
+        ]
     },
 
     // Discrete Mathematics
@@ -525,7 +549,11 @@ const notesData = [
             "B.Tech CSE-AIBC": "3rd"
         },
         type: "Notes",
-        available: "no"
+        available: "no",
+        modules: [
+        ],
+        pyqs: [
+        ]
     },
 
     // Data Structure Using C
@@ -539,190 +567,11 @@ const notesData = [
             "B.Tech CSE-AIBC": "4th"
         },
         type: "Notes",
-        available: "no"
-    },
-
-    // Computer Organization and Architecture
-    {
-        subject: "Computer Organization and Architecture",
-        branch: ["B.Tech CSE", "B.Tech CSE-AI"],
-        semester: {
-            "B.Tech CSE": "3rd",
-            "B.Tech CSE-AI": "3rd"
-        },
-        type: "Notes",
-        available: "no"
-    },
-
-    // Database Management Systems
-    {
-        subject: "Database Management Systems",
-        branch: ["B.Tech CSE", "B.Tech CSE-AI", "B.Tech CSE-CCML"],
-        semester: {
-            "B.Tech CSE": "4th",
-            "B.Tech CSE-AI": "4th",
-            "B.Tech CSE-CCML": "4th"
-        },
-        type: "Notes",
-        available: "no"
-    },
-
-    // Operating Systems
-    {
-        subject: "Operating Systems",
-        branch: ["B.Tech CSE", "B.Tech CSE-AI", "B.Tech CSE-CCML"],
-        semester: {
-            "B.Tech CSE": "4th",
-            "B.Tech CSE-AI": "4th",
-            "B.Tech CSE-CCML": "4th"
-        },
-        type: "Notes",
-        available: "no"
-    },
-
-    // Microprocessor and Interfacing
-    {
-        subject: "Microprocessor and Interfacing",
-        branch: ["B.Tech CSE", "B.Tech CSE-AI"],
-        semester: {
-            "B.Tech CSE": "4th",
-            "B.Tech CSE-AI": "4th"
-        },
-        type: "Notes",
-        available: "no"
-    },
-
-    // Computer Networks
-    {
-        subject: "Computer Networks",
-        branch: ["B.Tech CSE", "B.Tech CSE-AI", "B.Tech CSE-CCML"],
-        semester: {
-            "B.Tech CSE": "5th",
-            "B.Tech CSE-AI": "5th",
-            "B.Tech CSE-CCML": "5th"
-        },
-        type: "Notes",
-        available: "no"
-    },
-
-    // Software Engineering
-    {
-        subject: "Software Engineering",
-        branch: ["B.Tech CSE", "B.Tech CSE-AI", "B.Tech CSE-CCML"],
-        semester: {
-            "B.Tech CSE": "5th",
-            "B.Tech CSE-AI": "5th",
-            "B.Tech CSE-CCML": "5th"
-        },
-        type: "Notes",
-        available: "no"
-    },
-
-    // Machine Learning
-    {
-        subject: "Machine Learning",
-        branch: ["B.Tech CSE-AI", "B.Tech CSE-CCML", "B.Tech CSE-AIBC"],
-        semester: {
-            "B.Tech CSE-AI": "5th",
-            "B.Tech CSE-CCML": "5th",
-            "B.Tech CSE-AIBC": "5th"
-        },
-        type: "Notes",
-        available: "no"
-    },
-
-    // Deep Learning
-    {
-        subject: "Deep Learning",
-        branch: ["B.Tech CSE-AI", "B.Tech CSE-AIBC"],
-        semester: {
-            "B.Tech CSE-AI": "6th",
-            "B.Tech CSE-AIBC": "6th"
-        },
-        type: "Notes",
-        available: "no"
-    },
-
-    // Cloud Computing
-    {
-        subject: "Cloud Computing",
-        branch: ["B.Tech CSE", "B.Tech CSE-CCML"],
-        semester: {
-            "B.Tech CSE": "5th",
-            "B.Tech CSE-CCML": "5th"
-        },
-        type: "Notes",
-        available: "no"
-    },
-
-    // DevOps
-    {
-        subject: "DevOps",
-        branch: ["B.Tech CSE"],
-        semester: {
-            "B.Tech CSE": "6th"
-        },
-        type: "Notes",
-        available: "no"
-    },
-
-    // Big Data Analytics and Architecture
-    {
-        subject: "Big Data Analytics and Architecture",
-        branch: ["B.Tech CSE-CCML"],
-        semester: {
-            "B.Tech CSE-CCML": "6th"
-        },
-        type: "Notes",
-        available: "no"
-    },
-
-    // Blockchain Technology
-    {
-        subject: "Blockchain Technology",
-        branch: ["B.Tech CSE-AIBC"],
-        semester: {
-            "B.Tech CSE-AIBC": "6th"
-        },
-        type: "Notes",
-        available: "no"
-    },
-
-    // Algorithms
-    {
-        subject: "Algorithms",
-        branch: ["B.Tech CSE", "B.Tech CSE-AI", "B.Tech CSE-CCML"],
-        semester: {
-            "B.Tech CSE": "4th",
-            "B.Tech CSE-AI": "4th",
-            "B.Tech CSE-CCML": "4th"
-        },
-        type: "Notes",
-        available: "no"
-    },
-
-    // Design and Analysis of Algorithms
-    {
-        subject: "Design and Analysis of Algorithms",
-        branch: ["B.Tech CSE", "B.Tech CSE-AI"],
-        semester: {
-            "B.Tech CSE": "5th",
-            "B.Tech CSE-AI": "5th"
-        },
-        type: "Notes",
-        available: "no"
-    },
-
-    // Automata Theory
-    {
-        subject: "Automata Theory",
-        branch: ["B.Tech CSE", "B.Tech CSE-AI"],
-        semester: {
-            "B.Tech CSE": "4th",
-            "B.Tech CSE-AI": "4th"
-        },
-        type: "Notes",
-        available: "no"
+        available: "no",
+        modules: [
+        ],
+        pyqs: [
+        ]
     },
 
     // Digital Logic Design
@@ -734,94 +583,17 @@ const notesData = [
             "B.Tech CSE-AI": "3rd"
         },
         type: "Notes",
-        available: "no"
-    },
-
-    // Compiler Design
-    {
-        subject: "Compiler Design",
-        branch: ["B.Tech CSE"],
-        semester: {
-            "B.Tech CSE": "6th"
-        },
-        type: "Notes",
-        available: "no"
-    },
-
-    // Data Compression
-    {
-        subject: "Data Compression",
-        branch: ["B.Tech CSE-CCML"],
-        semester: {
-            "B.Tech CSE-CCML": "5th"
-        },
-        type: "Notes",
-        available: "no"
-    },
-
-    // Data Science with Python
-    {
-        subject: "Data Science with Python",
-        branch: ["B.Tech CSE-CCML", "B.Tech CSE-AI"],
-        semester: {
-            "B.Tech CSE-CCML": "5th",
-            "B.Tech CSE-AI": "5th"
-        },
-        type: "Notes",
-        available: "no"
-    },
-
-    // Artificial Neural Networks
-    {
-        subject: "Artificial Neural Networks",
-        branch: ["B.Tech CSE-AI", "B.Tech CSE-AIBC"],
-        semester: {
-            "B.Tech CSE-AI": "6th",
-            "B.Tech CSE-AIBC": "6th"
-        },
-        type: "Notes",
-        available: "no"
-    },
-
-    // Concepts of Machine Learning
-    {
-        subject: "Concepts of Machine Learning",
-        branch: ["B.Tech CSE-AI", "B.Tech CSE-CCML"],
-        semester: {
-            "B.Tech CSE-AI": "4th",
-            "B.Tech CSE-CCML": "4th"
-        },
-        type: "Notes",
-        available: "no"
-    },
-
-    // Concepts of Data Science
-    {
-        subject: "Concepts of Data Science",
-        branch: ["B.Tech CSE-AI", "B.Tech CSE-CCML"],
-        semester: {
-            "B.Tech CSE-AI": "3rd",
-            "B.Tech CSE-CCML": "3rd"
-        },
-        type: "Notes",
-        available: "no"
+        available: "no",
+        modules: [
+        ],
+        pyqs: [
+        ]
     },
 
     // Organizational Behavior
     {
         subject: "Organizational Behavior",
-        branch: ["B.Tech CSE"],
-        semester: {
-            "B.Tech CSE": "5th"
-        },
-        type: "Notes",
-        available: "no"
-    },
-
-    // Essence of Indian Knowledge System
-    {
-        subject: "Essence of Indian Knowledge System",
-        branch: ["All"],
+        branch: ["B.Tech CSE", "B.Tech CSE-AI", "B.Tech CSE-CCML", "B.Tech CSE-AIBC"],
         semester: {
             "B.Tech CSE": "3rd",
             "B.Tech CSE-AI": "3rd",
@@ -829,106 +601,168 @@ const notesData = [
             "B.Tech CSE-AIBC": "3rd"
         },
         type: "Notes",
-        available: "no"
+        available: "no",
+        modules: [
+        ],
+        pyqs: [
+        ]
     },
 
-    // Natural Language Processing
+    // INDIAN CONSITUTION
     {
-        subject: "Natural Language Processing",
-        branch: ["B.Tech CSE-AI"],
+        subject: "Indian Constitution",
+        branch: ["B.Tech CSE", "B.Tech CSE-AI", "B.Tech CSE-CCML", "B.Tech CSE-AIBC"],
         semester: {
-            "B.Tech CSE-AI": "7th"
-        },
+            "B.Tech CSE": "3rd",
+            "B.Tech CSE-AI": "3rd",
+            "B.Tech CSE-CCML": "4th",
+            "B.Tech CSE-AIBC": "4th"
+        },  
         type: "Notes",
-        available: "no"
+        available: "no",
+        modules: [
+        ],
+        pyqs: [
+        ]
     },
 
-    // Fuzzy Logic
+    // Core and Advance Java
     {
-        subject: "Fuzzy Logic",
-        branch: ["B.Tech CSE-AI"],
-        semester: {
-            "B.Tech CSE-AI": "7th"
-        },
-        type: "Notes",
-        available: "no"
-    },
-
-    // Concepts of Deep Learning
-    {
-        subject: "Concepts of Deep Learning",
-        branch: ["B.Tech CSE-AI"],
-        semester: {
-            "B.Tech CSE-AI": "8th"
-        },
-        type: "Notes",
-        available: "no"
-    },
-
-    // Essentials of Machine Learning
-    {
-        subject: "Essentials of Machine Learning",
+        subject: "Core and Advance Java",
         branch: ["B.Tech CSE"],
         semester: {
-            "B.Tech CSE": "8th"
+            "B.Tech CSE": "4th"
         },
         type: "Notes",
-        available: "no"
+        available: "no",
+        modules: [
+        ],
+        pyqs: [
+        ]
     },
 
-    // Soft Computing
+
+    // Statistical & Numerical Techniques
     {
-        subject: "Soft Computing",
+        subject: "Statistical & Numerical Techniques",
+        branch: ["B.Tech CSE", "B.Tech CSE-AI", "B.Tech CSE-CCML", "B.Tech CSE-AIBC"],
+        semester: {
+            "B.Tech CSE": "4th",
+            "B.Tech CSE-AI": "4th",
+            "B.Tech CSE-CCML": "4th",
+            "B.Tech CSE-AIBC": "4th"
+        },
+        type: "Notes",
+        available: "no",
+        modules: [
+        ],
+        pyqs: [
+        ]
+    },
+
+    // Concepts of Machine Learning With Python
+    {
+        subject: "Concepts of Machine Learning With Python",
+        branch: ["B.Tech CSE-AI"],
+        semester: {
+            "B.Tech CSE-AI": "4th"
+        },
+        type: "Notes",
+        available: "no",
+        modules: [
+        ],
+        pyqs: [
+        ]
+    },
+
+    // Database Management Systems
+    {
+        subject: "Database Management Systems",
+        branch: ["B.Tech CSE", "B.Tech CSE-AI", "B.Tech CSE-CCML", "B.Tech CSE-AIBC"],
+        semester: {
+            "B.Tech CSE": "4th",
+            "B.Tech CSE-AI": "4th",
+            "B.Tech CSE-CCML": "4th",
+            "B.Tech CSE-AIBC": "4th"
+        },
+        type: "Notes",
+        available: "yes",
+        modules: [
+        ],
+        pyqs: [
+            { year: "2026", term: "Even", file: "Database Management Systems 2026 Even Semester.pdf" }
+        ]
+    },
+
+    // Operating Systems
+    {
+        subject: "Operating Systems",
+        branch: ["B.Tech CSE", "B.Tech CSE-AI", "B.Tech CSE-CCML", "B.Tech CSE-AIBC"],
+        semester: {
+            "B.Tech CSE": "4th",
+            "B.Tech CSE-AI": "4th",
+            "B.Tech CSE-CCML": "3rd",
+            "B.Tech CSE-AIBC": "3rd"
+        },
+        type: "Notes",
+        available: "yes",
+        modules: [
+        ],
+        pyqs: [
+            { year: "2026", term: "Even", file: "Operating Systems 2026 Even Semester.pdf" }
+        ]
+    },
+
+    // Computer Organization and Architecture
+    {
+        subject: "Computer Organization & Architecture",
+        branch: ["B.Tech CSE", "B.Tech CSE-AI"],
+        semester: {
+            "B.Tech CSE": "4th",
+            "B.Tech CSE-AI": "4th"
+        },
+        type: "Notes",
+        available: "yes",
+        modules: [
+        ],
+        pyqs: [
+            { year: "2026", term: "Even", file: "Computer Organization & Architecture 2026 Even Semester.pdf" }
+        ]
+    },
+
+    // Industrial Sociology
+    {
+        subject: "Industrial Sociology",
+        branch: ["B.Tech CSE", "B.Tech CSE-AI", "B.Tech CSE-CCML", "B.Tech CSE-AIBC"],
+        semester: {
+            "B.Tech CSE": "4th",
+            "B.Tech CSE-AI": "4th",
+            "B.Tech CSE-CCML": "4th",
+            "B.Tech CSE-AIBC": "4th"
+        },
+        type: "Notes",
+        available: "yes",
+        modules: [
+        ],
+        pyqs: [
+            { year: "2026", term: "Even", file: "Industrial Sociology 2026 Even Semester.pdf" }
+        ]
+    },
+
+    // Software Engineering
+    {
+        subject: "Software Engineering",
         branch: ["B.Tech CSE"],
         semester: {
-            "B.Tech CSE": "7th"
+            "B.Tech CSE": "4th"
         },
         type: "Notes",
-        available: "no"
-    },
-
-    // Distributed Systems
-    {
-        subject: "Distributed Systems",
-        branch: ["B.Tech CSE"],
-        semester: {
-            "B.Tech CSE": "7th"
-        },
-        type: "Notes",
-        available: "no"
-    },
-
-    // Digital Image Processing
-    {
-        subject: "Digital Image Processing",
-        branch: ["B.Tech CSE-CCML"],
-        semester: {
-            "B.Tech CSE-CCML": "8th"
-        },
-        type: "Notes",
-        available: "no"
-    },
-
-    // Cybersecurity
-    {
-        subject: "Cybersecurity",
-        branch: ["B.Tech CSE-AIBC"],
-        semester: {
-            "B.Tech CSE-AIBC": "8th"
-        },
-        type: "Notes",
-        available: "no"
-    },
-
-    // Solidity and Smart Contract
-    {
-        subject: "Solidity and Smart Contract",
-        branch: ["B.Tech CSE-AIBC"],
-        semester: {
-            "B.Tech CSE-AIBC": "7th"
-        },
-        type: "Notes",
-        available: "no"
+        available: "yes",
+        modules: [
+        ], 
+        pyqs: [
+            { year: "2026", term: "Even", file: "Software Engineering 2026 Even Semester.pdf" }
+        ]
     }
 ];
 
