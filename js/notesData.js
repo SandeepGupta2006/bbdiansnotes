@@ -444,16 +444,8 @@ const notesData = [
     available: "yes",
     modules: [
       {
-        moduleName: "Module 1",
-        files: "",
-      },
-      {
-        moduleName: "Module 2",
-        files: "",
-      },
-      {
-        moduleName: "Module 3",
-        files: "",
+        moduleName: "Full Module",
+        files: "Computer Concepts & Programming in C.pdf",
       },
     ],
     pyqs: [
@@ -740,22 +732,22 @@ const notesData = [
     type: "Notes",
     available: "yes",
     modules: [
-        {
-            moduleName: "Module 1",
-            files: "AIMES Module 1.pdf",
-        },
-        {
-            moduleName: "Module 2",
-            files: "",
-        },
-        {
-            moduleName: "Module 3",
-            files: "",
-        },
-        {
-            moduleName: "Module 4",
-            files: "",
-        }
+      {
+        moduleName: "Module 1",
+        files: "AIMES Module 1.pdf",
+      },
+      {
+        moduleName: "Module 2",
+        files: "AIMES Module 2.pdf",
+      },
+      {
+        moduleName: "Module 3",
+        files: "",
+      },
+      {
+        moduleName: "Module 4",
+        files: "",
+      },
     ],
     pyqs: [],
   },
@@ -773,26 +765,35 @@ const notesData = [
     type: "Notes",
     available: "yes",
     modules: [
-        {
-            moduleName: "Module 1: Complex Analysis I",
-            chapters: [
-                { name: "Analytic Function & Cauchy-Riemann Equations", file: "CAIT Module 1 Ch 1.pdf" },
-                { name: "Harmonic Functions & Conjugate Harmonic Functions", file: "CAIT Module 1 Ch 2.pdf" },
-                { name: "Line Integral in Complex Plane", file: "CAIT Module 1 Ch 3.pdf" },
-            ],
-        },
-        {
-            moduleName: "Module 2: Complex Analysis II",
-            files: "",
-        },
-        {
-            moduleName: "Module 3: Laplace Transform",
-            files: "",
-        },
-        {
-            moduleName: "Module 4: Fourier & Z-Transform",
-            files: "",
-        }
+      {
+        moduleName: "Module 1: Complex Analysis I",
+        chapters: [
+          {
+            name: "Analytic Function & Cauchy-Riemann Equations",
+            file: "CAIT Module 1 Ch 1.pdf",
+          },
+          {
+            name: "Harmonic Functions & Conjugate Harmonic Functions",
+            file: "CAIT Module 1 Ch 2.pdf",
+          },
+          {
+            name: "Line Integral in Complex Plane",
+            file: "CAIT Module 1 Ch 3.pdf",
+          },
+        ],
+      },
+      {
+        moduleName: "Module 2: Complex Analysis II",
+        files: "",
+      },
+      {
+        moduleName: "Module 3: Laplace Transform",
+        files: "",
+      },
+      {
+        moduleName: "Module 4: Fourier & Z-Transform",
+        files: "",
+      },
     ],
     pyqs: [],
   },
@@ -816,20 +817,22 @@ const notesData = [
     available: "yes",
     modules: [
       {
-        moduleName: "Module 1: Set Theory, Relations, Functions & Natural Numbers",
+        moduleName:
+          "Module 1: Set Theory, Relations, Functions & Natural Numbers",
         files: "DM Module 1.pdf",
       },
       {
         moduleName: "Module 2: Groups, Rings, Fields & Lattice",
-        files: "",
+        files: "DM Module 2.pdf",
       },
       {
-        moduleName: "Module 3: Propositional Logic, Recurrence Relation & Combinatorics",
+        moduleName:
+          "Module 3: Propositional Logic, Recurrence Relation & Combinatorics",
         chapters: [
           { name: "Proposition Logic", file: "" },
           { name: "Recurrence Relation & Combinatorics", file: "" },
         ],
-      }
+      },
     ],
     pyqs: [],
   },
@@ -852,22 +855,48 @@ const notesData = [
     type: "Notes",
     available: "yes",
     modules: [
-        {
-            moduleName: "Module 1: Introduction & Arrays",
-            files: "DSUC Module 1.pdf",
-        },
-        {
-            moduleName: "Module 2: Stack & Linked List",
-            files: "",
-        },
-        {
-            moduleName: "Module 3: Tree, Searching, Sorting & Hashing",
-            files: "",
-        },
-        {
-            moduleName: "Module 4: Graphs",
-            files: "",
-        }
+      {
+        moduleName: "Module 1: Introduction & Arrays",
+        chapters: [
+          {
+            name: "Introduction",
+            file: "DSUC Module 1 Ch 1.pdf",
+          },
+          {
+            name: "Arrays",
+            file: "DSUC Module 1 Ch 2.pdf",
+          },
+          {
+            name: "Recursions & Tower of Hanoi",
+            file: "DSUC Module 1 Ch 3.pdf",
+          },
+        ],
+      },
+      {
+        moduleName: "Module 2: Stack, Queue & Linked List",
+        chapters: [
+          {
+            name: "Linked List",
+            file: "DSUC Module 2 Ch 1.pdf",
+          },
+          {
+            name: "Stack & Its Application (Infix, Postfix & Prefix)",
+            file: "DSUC Module 2 Ch 2.pdf",
+          },
+          {
+            name: "Queue",
+            file: "",
+          },
+        ],
+      },
+      {
+        moduleName: "Module 3: Tree, Searching, Sorting & Hashing",
+        files: "",
+      },
+      {
+        moduleName: "Module 4: Graphs",
+        files: "",
+      },
     ],
     pyqs: [],
   },
@@ -883,27 +912,21 @@ const notesData = [
     type: "Notes",
     available: "yes",
     modules: [
-        {
-            moduleName: "Module 1",
-            chapters: [
-                { name: "Digital Design & Binary Numbers", file: "DLD Module 1 Ch 1.pdf" },
-                { name: "Gate-level Minimization", file: "" },
-            ]
-        },
-        {
-            moduleName: "Module 2",
-            chapters: [
-                { name: "Combinational Logic", file: "" },
-                { name: "Memory & Programmable Logic Devices", file: "" },
-            ]
-        },
-        {
-            moduleName: "Module 3",
-            chapters: [
-                { name: "Synchronous Sequential Logic", file: "" },
-                { name: "Asynchronous Sequential Logic", file: "" },
-            ]
-        }
+      {
+        moduleName: "Module 1",
+        files: "DLD Module 1.pdf",
+      },
+      {
+        moduleName: "Module 2",
+        files: "DLD Module 2.pdf",
+      },
+      {
+        moduleName: "Module 3",
+        chapters: [
+          { name: "Synchronous Sequential Logic", file: "" },
+          { name: "Asynchronous Sequential Logic", file: "" },
+        ],
+      },
     ],
     pyqs: [],
   },
