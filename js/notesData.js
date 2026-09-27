@@ -780,11 +780,36 @@ const notesData = [
             name: "Line Integral in Complex Plane",
             file: "CAIT Module 1 Ch 3.pdf",
           },
+          {
+            name: "Cauchy's Integral Theorem & Formula",
+            file: "CAIT Module 1 Ch 4.pdf",
+          },
+          {
+            name: "Key Theorems",
+            file: "CAIT Module 1 Ch 5.pdf",
+          },
         ],
       },
       {
         moduleName: "Module 2: Complex Analysis II",
-        files: "",
+        chapters: [
+          {
+            name: "Taylor's & Laurent's Series",
+            file: "CAIT Module 2 Ch 1.pdf",
+          },
+          {
+            name: "Singularities",
+            file: "CAIT Module 2 Ch 2.pdf",
+          },
+          {
+            name: "Residue Theory",
+            file: "CAIT Module 2 Ch 3.pdf",
+          },
+          {
+            name: "Contour Integration",
+            file: "CAIT Module 2 Ch 4.pdf",
+          },
+        ],
       },
       {
         moduleName: "Module 3: Laplace Transform",
