@@ -495,6 +495,11 @@ const notesData = [
     pyqs: [
       {
         year: "2025-26",
+        term: "SCoP",
+        file: "Matrices & Calculus 2025-26 SCoP.pdf",
+      },
+      {
+        year: "2025-26",
         term: "Odd",
         file: "Matrices & Calculus 2025-26 Odd Semester.pdf",
       },
@@ -813,7 +818,7 @@ const notesData = [
       },
       {
         moduleName: "Module 3: Laplace Transform",
-        files: "",
+        files: "CAIT Module 3.pdf",
       },
       {
         moduleName: "Module 4: Fourier & Z-Transform",
@@ -910,7 +915,7 @@ const notesData = [
           },
           {
             name: "Queue",
-            file: "",
+            file: "DSUC Module 2 Ch 3.pdf",
           },
         ],
       },
@@ -923,7 +928,18 @@ const notesData = [
         files: "",
       },
     ],
-    pyqs: [],
+    pyqs: [
+      {
+        year: "2024-25",
+        term: "Odd",
+        file: "Data Structure Using C 2024-25 Odd Semester.pdf",
+      },
+      {
+        year: "2023-24",
+        term: "Even",
+        file: "Data Structure Using C 2023-24 Even Semester.pdf",
+      },
+    ],
   },
 
   // Digital Logic Design
