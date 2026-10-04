@@ -849,11 +849,49 @@ const notesData = [
       {
         moduleName:
           "Module 1: Set Theory, Relations, Functions & Natural Numbers",
-        files: "DM Module 1.pdf",
+        chapters: [
+          {
+            name: "Set Theory",
+            file: "DM Module 1 Ch 1.pdf",
+          },
+          {
+            name: "Relations",
+            file: "DM Module 1 Ch 2.pdf",
+          },
+          {
+            name: "Functions",
+            file: "DM Module 1 Ch 3.pdf",
+          },
+          {
+            name: "Mathematical Induction",
+            file: "DM Module 1 Ch 4.pdf",
+          },
+        ],
       },
       {
         moduleName: "Module 2: Groups, Rings, Fields & Lattice",
-        files: "DM Module 2.pdf",
+        chapters: [
+          {
+            name: "Algebraic Structures & Group Theory",
+            file: "DM Module 2 Ch 1.pdf",
+          },
+          {
+            name: "Order of an Element & Cyclic Groups",
+            file: "DM Module 2 Ch 2.pdf",
+          },
+          {
+            name: "Subgroups & Cosets",
+            file: "DM Module 2 Ch 3.pdf",
+          },
+          {
+            name: "Rings & Fields",
+            file: "DM Module 2 Ch 4.pdf",
+          },
+          {
+            name: "Hasse Diagram",
+            file: "DM Module 2 Ch 5.pdf",
+          },
+        ],
       },
       {
         moduleName:
