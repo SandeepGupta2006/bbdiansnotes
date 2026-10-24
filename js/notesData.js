@@ -743,18 +743,33 @@ const notesData = [
       },
       {
         moduleName: "Module 2",
-        files: "AIMES Module 2.pdf",
+        chapters: [
+          {
+            name: "Handwritten Notes",
+            file: "AIMES Module 2 handwritten.pdf",
+          },
+          {
+            name: "Digital Handwritten Notes",
+            file: "AIMES Module 2 digihandwritten.pdf",
+          },
+        ],
       },
       {
         moduleName: "Module 3",
-        files: "",
+        files: "AIMES Module 3.pdf",
       },
       {
         moduleName: "Module 4",
         files: "",
       },
     ],
-    pyqs: [],
+    pyqs: [
+      {
+        year: "2025-26",
+        term: "Odd",
+        file: "Artificial Intelligence in Mechanical Engineering Systems 2025-26 Odd Semester.pdf",
+      },
+    ],
   },
 
   // Complex Analysis and Integral Transforms
@@ -822,10 +837,30 @@ const notesData = [
       },
       {
         moduleName: "Module 4: Fourier & Z-Transform",
-        files: "",
+        chapters: [
+          {
+            name: "Fourier Transform",
+            file: "CAIT Module 4 Ch 1.pdf",
+          },
+          {
+            name: "Z-transform",
+            file: "CAIT Module 4 Ch 2.pdf",
+          },
+        ],
       },
     ],
-    pyqs: [],
+    pyqs: [
+      {
+        year: "2025-26",
+        term: "Odd",
+        file: "Complex Analysis and Integral Transforms 2025-26 Odd Semester.pdf",
+      },
+      {
+        year: "2023-24",
+        term: "Odd",
+        file: "Complex Analysis and Integral Transforms 2023-24 Odd Semester.pdf",
+      },
+    ],
   },
 
   // Discrete Mathematics
@@ -897,7 +932,11 @@ const notesData = [
         moduleName:
           "Module 3: Propositional Logic, Recurrence Relation & Combinatorics",
         chapters: [
-          { name: "Proposition Logic", file: "" },
+          { name: "Proposition Logic", file: "DM Module 3 Ch 1.pdf" },
+          {
+            name: "Proposition Logic Second Notes",
+            file: "DM Module 3 Ch 1 Second.pdf",
+          },
           { name: "Recurrence Relation & Combinatorics", file: "" },
         ],
       },
@@ -1001,13 +1040,16 @@ const notesData = [
       },
       {
         moduleName: "Module 3",
-        chapters: [
-          { name: "Synchronous Sequential Logic", file: "" },
-          { name: "Asynchronous Sequential Logic", file: "" },
-        ],
+        files: "DLD Module 3.pdf",
       },
     ],
-    pyqs: [],
+    pyqs: [
+      {
+        year: "2025-26",
+        term: "Odd",
+        file: "Digital Logic Design 2025-26 Odd Semester.pdf",
+      },
+    ],
   },
 
   // Industrial Sociology
@@ -1026,9 +1068,24 @@ const notesData = [
       "B.Tech CSE-AIBC": "3rd",
     },
     type: "Notes",
-    available: "no",
-    modules: [],
-    pyqs: [],
+    available: "yes",
+    modules: [
+      {
+        moduleName: "Module 1",
+        files: "IS Module 1.pdf",
+      },
+      {
+        moduleName: "Module 2",
+        files: "",
+      },
+    ],
+    pyqs: [
+      {
+        year: "2026",
+        term: "Even",
+        file: "Industrial Sociology 2026 Even Semester.pdf",
+      },
+    ],
   },
 
   // Organizational Behavior
@@ -1190,33 +1247,6 @@ const notesData = [
         year: "2026",
         term: "Even",
         file: "Computer Organization & Architecture 2026 Even Semester.pdf",
-      },
-    ],
-  },
-
-  // Industrial Sociology
-  {
-    subject: "Industrial Sociology",
-    branch: [
-      "B.Tech CSE",
-      "B.Tech CSE-AI",
-      "B.Tech CSE-CCML",
-      "B.Tech CSE-AIBC",
-    ],
-    semester: {
-      "B.Tech CSE": "4th",
-      "B.Tech CSE-AI": "4th",
-      "B.Tech CSE-CCML": "4th",
-      "B.Tech CSE-AIBC": "4th",
-    },
-    type: "Notes",
-    available: "yes",
-    modules: [],
-    pyqs: [
-      {
-        year: "2026",
-        term: "Even",
-        file: "Industrial Sociology 2026 Even Semester.pdf",
       },
     ],
   },
