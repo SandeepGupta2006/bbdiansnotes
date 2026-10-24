@@ -769,6 +769,16 @@ const notesData = [
         term: "Odd",
         file: "Artificial Intelligence in Mechanical Engineering Systems 2025-26 Odd Semester.pdf",
       },
+      {
+        year: "2024-25",
+        term: "Odd",
+        file: "Artificial Intelligence in Mechanical Engineering Systems 2024-25 Odd Semester.pdf",
+      },
+      {
+        year: "2022-23",
+        term: "Odd",
+        file: "Artificial Intelligence in Mechanical Engineering Systems 2022-23 Odd Semester.pdf",
+      },
     ],
   },
 
@@ -856,9 +866,19 @@ const notesData = [
         file: "Complex Analysis and Integral Transforms 2025-26 Odd Semester.pdf",
       },
       {
+        year: "2024-25",
+        term: "Odd",
+        file: "Complex Analysis and Integral Transforms 2024-25 Odd Semester.pdf",
+      },
+      {
         year: "2023-24",
         term: "Odd",
         file: "Complex Analysis and Integral Transforms 2023-24 Odd Semester.pdf",
+      },
+      {
+        year: "2022-23",
+        term: "Odd",
+        file: "Complex Analysis and Integral Transforms 2022-23 Odd Semester.pdf",
       },
     ],
   },
@@ -941,7 +961,23 @@ const notesData = [
         ],
       },
     ],
-    pyqs: [],
+    pyqs: [
+      {
+        year: "2024-25",
+        term: "Odd",
+        file: "Discrete Mathematics 2024-25 Odd Semester.pdf",
+      },
+      {
+        year: "2023-24",
+        term: "Odd",
+        file: "Discrete Mathematics 2023-24 Odd Semester.pdf",
+      },
+      {
+        year: "2022-23",
+        term: "Odd",
+        file: "Discrete Mathematics 2022-23 Odd Semester.pdf",
+      },
+    ],
   },
 
   // Data Structure Using C
@@ -1049,6 +1085,31 @@ const notesData = [
         term: "Odd",
         file: "Digital Logic Design 2025-26 Odd Semester.pdf",
       },
+      {
+        year: "2024-25",
+        term: "Odd",
+        file: "Digital Logic Design 2024-25 Odd Semester.pdf",
+      },
+      {
+        year: "2023-24",
+        term: "Odd",
+        file: "Digital Logic Design 2023-24 Odd Semester.pdf",
+      },
+      {
+        year: "2022-23",
+        term: "Odd",
+        file: "Digital Logic Design 2022-23 Odd Semester.pdf",
+      },
+      {
+        year: "2021-22",
+        term: "Odd",
+        file: "Digital Logic Design 2021-22 Odd Semester.pdf",
+      },
+      {
+        year: "2019-20",
+        term: "Odd",
+        file: "Digital Logic Design 2019-20 Odd Semester.pdf",
+      },
     ],
   },
 
@@ -1084,6 +1145,26 @@ const notesData = [
         year: "2026",
         term: "Even",
         file: "Industrial Sociology 2026 Even Semester.pdf",
+      },
+      {
+        year: "2024-25",
+        term: "Odd",
+        file: "Industrial Sociology 2024-25 Odd Semester.pdf",
+      },
+      {
+        year: "2024-25",
+        term: "Even",
+        file: "Industrial Sociology 2024-25 Even Semester.pdf",
+      },
+      {
+        year: "2023-24",
+        term: "Odd",
+        file: "Industrial Sociology 2023-24 Odd Semester.pdf",
+      },
+      {
+        year: "2023-24",
+        term: "Even",
+        file: "Industrial Sociology 2023-24 Even Semester.pdf",
       },
     ],
   },
